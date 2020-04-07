@@ -1,0 +1,44 @@
+.contact-section {
+    padding: 6rem 0;
+}
+
+.contact-icon {
+    flex: 1;
+}
+
+.contact-content {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.contact-detail {
+    flex: 12;
+    font-size: var(--text-size);
+    font-weight: 300;
+    line-height: 1.6;
+    font-family: var(--open-sans-font);
+    color: var(--text-color);
+}
+
+.contact-detail p {
+    margin-top: 0;
+}
+
+.contact-detail a {
+    text-decoration: none;
+    color: var(--text-color);
+    transition: color 1s;
+}
+
+.contact-detail a:hover {
+    color: var(--heading-color);
+}
+
+.contact-detail .direct-message {
+    transition: color 1s;
+}
+
+.contact-detail .direct-message:hover {
+    color: var(--heading-color);
+    cursor: pointer;
+}

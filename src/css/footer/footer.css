@@ -1,0 +1,18 @@
+.footer {
+    background-color: var(--black-background);
+    height: 5rem;
+    display: flex;
+    color: var(--white);
+    align-items: center;
+    font-family: var(--open-sans-font);
+    font-size: var(--text-size);
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text p {
+    display: inline;
+}

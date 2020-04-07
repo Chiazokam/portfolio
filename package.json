@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --runInBand",
+    "test:update": "npm test  --u",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage --colors",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
@@ -51,13 +52,19 @@
   },
   "dependencies": {
     "@babel/preset-react": "^7.9.4",
+    "@fortawesome/fontawesome-svg-core": "^1.2.28",
+    "@fortawesome/free-solid-svg-icons": "^5.13.0",
+    "@material-ui/core": "^4.9.8",
+    "@material-ui/icons": "^4.9.1",
     "babel-loader": "^8.1.0",
     "css-loader": "^3.4.2",
     "express": "^4.17.1",
     "html-webpack-plugin": "^4.0.3",
+    "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
+    "sass-loader": "^8.0.2",
     "style-loader": "^1.1.3"
   }
 }
