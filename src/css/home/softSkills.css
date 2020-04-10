@@ -1,0 +1,36 @@
+.soft-skills-section {
+    padding: 6rem 0;
+}
+
+.soft-skill-title {
+    font-size: var(--sub-heading-size);
+    letter-spacing: 3px;
+    color:  var(--heading-color);
+    font-family: var(--open-sans-font);
+    font-weight: 400;
+}
+
+.soft-skill-content {
+    letter-spacing: 1px;
+    color: var(--text-color);
+    font-size: var(--text-size);
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-family: var(--open-sans-font);
+}
+
+.soft-skills-section .MuiPaper-elevation1 {
+    box-shadow: none;
+}
+
+.soft-skills-section img {
+    display: inline-block;
+    height: 4rem;
+    width: 4rem;
+    margin-bottom: 3rem;
+    opacity: 0.5;
+}
+
+.soft-skills-section .MuiGrid-spacing-xs-4 > .MuiGrid-item {
+    margin-bottom: 2rem;
+}

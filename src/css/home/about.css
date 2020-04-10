@@ -1,0 +1,12 @@
+.about-content {
+    color: var(--text-color);
+    font-family: var(--open-sans-font);
+    font-size: var(--text-size);
+    letter-spacing: 1px;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+.about-section {
+    padding: 6rem 0;
+}

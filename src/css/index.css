@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Open+Sans&display=swap');
+@import './header/header.css';
+@import './home/home.css';
+@import './home/about.css';
+@import './home//tools.css';
+@import './home/softSkills.css';
+@import './home/companies.css';
+@import './home/contact.css';
+@import './footer/footer.css';
+
+body {
+    margin: 0 auto;
+}
+
+:root {
+    --white: #fff;
+    --black-background: #111;
+    --dosis-font: 'Dosis', sans-serif;
+    --open-sans-font: 'Open Sans', sans-serif;
+    --text-color: #777;
+    --heading-color: #111;
+    --faded-background-color: #f2f2f2;
+    --text-size: 15px;
+    --heading-size: 18px;
+    --sub-heading-size: 16px;
+}

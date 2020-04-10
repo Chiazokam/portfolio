@@ -1,0 +1,70 @@
+.home-showcase {
+    background-image: radial-gradient(rgba(0,0,0,1), rgba(0,0,0,0.8)),  url(https://res.cloudinary.com/zokky/image/upload/v1585832161/portfolio/black_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 49rem;
+    background-position: center;
+    width: 100%;
+}
+
+.showcase-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 16rem;
+}
+
+.showcase-content .home-text h1 {
+    color: white;
+    font-family: var(--dosis-font);
+    font-weight: 400;
+    letter-spacing: 51px;
+    font-size: 30px;
+}
+
+.showcase-content .home-text p {
+    color: white;
+    font-family: var(--open-sans-font);
+    opacity: .35;
+    letter-spacing: 3px;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.showcase-content .MuiSvgIcon-root {
+    fill: var(--white) !important;
+}
+
+.arrow {
+    text-align: center;
+    margin: 23% 0 0 0;
+  }
+  
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+  .section-title {
+    font-size: var(--heading-size);
+    font-family: var(--dosis-font);
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    letter-spacing: 4px;
+    color: var(--heading-color);
+    font-weight: 400;
+  }

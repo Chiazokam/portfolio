@@ -1,0 +1,30 @@
+.companies-section {
+    padding: 6rem 0;
+    background-color: var(--faded-background-color);
+}
+
+.company-card {
+    width: 29%;
+    display: inline-block;
+    margin-right: 2rem;
+}
+
+.companies-content .company-card {
+    text-align: center !important;
+    padding-right: 4rem !important;
+}
+
+.company-card .MuiPaper-elevation1 {
+    padding: 10rem 0 !important;
+    width: 20rem;
+    background-color: var(--black-background) !important;
+}
+
+.company-card p {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: dosis;
+    color: var(--white);
+    opacity: 0.6;
+}
